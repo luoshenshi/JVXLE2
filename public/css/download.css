@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+select[name=ff_gformat]{
+  margin-top: 10px;
+}
+
+.btn{
+  margin-top: 10px;
+}
